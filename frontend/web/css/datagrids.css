@@ -1,0 +1,67 @@
+/* ------------------ Para los gridviews -------------------- */
+
+.grid-view {
+    border-color: #0a0a0a;
+}
+
+.gridview-panel {
+    background-color: #f5f5f5 !important;
+    color: #333333 !important;
+    padding: 6px;
+    font-size: 11pt;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.gridview-panel h5 {
+    font-size: 12pt;
+}
+
+.btn-outline-secondary, .btn-outline-success, .btn-outline-info {
+    font-size: 10pt;
+}
+
+.datagrid-grupo {
+    background-color: #d1f4e2 !important;
+    color: #005f25 !important;
+    font-weight: bold;
+}
+
+.datagrid-subgrupo {
+    color: #000 !important;
+    background-color: #e6fef4 !important;
+
+}
+
+.datagrid-subtotal {
+    color: #000 !important;
+    background-color: #f7f7f7 !important;
+    font-weight:bold;
+}
+
+.fila-roja {
+    color: #bb0600 !important;
+    background-color: #fff3ec !important;
+}
+
+.fila-amarilla {
+    color: #ad9c0e !important;
+    background-color: #fffdea !important;
+}
+
+.btngrid {
+    padding: 1px 5px 1px 5px !important;
+}
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    .no-print-space {
+        display: none !important;
+        height: 0 !important;
+        width: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: none !important;
+    }
+}
+

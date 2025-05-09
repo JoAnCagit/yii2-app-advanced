@@ -1,0 +1,97 @@
+/*------------- Para el contenido de los Layouts ------------*/
+.contenido-layout {
+    margin-top: 55px !important;
+    margin-left: 205px !important;
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+.contenido-layout2 {
+    margin-top: 38px !important;
+}
+
+.periodo {
+    padding: 5px;
+    font-size: 11pt;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+.periodo .btn-outline-secondary {
+    padding: 2px 5px;
+    font-size: 10pt;
+    margin-left: 5px;
+}
+
+.elpie {
+    border-top: solid 5px #92ba0bff;
+    height: 40px;
+    padding: 3px !important;
+    /*margin-bottom: 10px;*/
+    bottom: 0;
+    background-color: #ebebeb;
+}
+
+
+.nav-item:hover {
+    background-color: #f5f5f5 !important;
+}
+
+
+.opened svg path {
+    fill: #008e00 !important;
+}
+
+.elarea {
+    font-weight: bold; 
+    color: black; 
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 0;
+}
+
+.card-header  {
+    padding: 4px 6px 4px 6px;
+    font-size: 11pt;
+}
+.row .card-header  {
+    font-weight: bold !important;
+}
+.card-body {
+    padding: 10px;
+    font-size: 10pt;
+}
+
+.modal-header {
+    padding: 10px;
+    color: #ffffff;
+    background-color: #33AA47;
+}
+.modal-title {
+    font-size: 12pt !important;
+}
+.form-control {
+    font-size: 12px;
+}
+
+.table-warning, .table-warning > th, .table-warning > td {
+    background-color: #d1f4e2 !important;
+    border-color: #e6e6e6;
+
+}
+.licred {
+    padding: 5px;
+    font-size: 10pt;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+/* Para cambiar el tamaño a los SELECT2 */
+.select2-container .select2-selection--single {
+    height: 32px; /* Ajusta esta medida a tus necesidades */
+}
+.select2-container .select2-selection--single .select2-selection__arrow {
+    height: 32px; /* Asegúrate de que esta medida sea igual a la altura del contenedor */
+}
+
